@@ -17,9 +17,7 @@ export default function LeaderBoardScreen({ navigation }) {
         type="solid"
         raised
         onPress={goToCdiscountScreen}
-      >
-        Cdiscount
-      </Button>
+      />
     </View>
   );
 }

@@ -1,10 +1,6 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React from "react";
+import { WebView } from "react-native-webview";
 
 export default function CdiscountScreen() {
-  return (
-    <View>
-      <Text>Cdiscount</Text>
-    </View>
-  )
+  return <WebView source={{ uri: "https://www.cdiscount.com" }} />;
 }
