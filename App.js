@@ -7,10 +7,7 @@ import { cond, equals, always, T } from "ramda";
 import HomeScreen from "./HomeScreen";
 import LeaderBoardNavigator from "./LeaderBoardNavigator";
 import GameScreen from "./GameScreen";
-
-const HOME = "Home";
-const LEADER_BOARD = "Leader Board";
-const GAME = "Game";
+import { HOME, LEADER_BOARD, GAME } from "./routes";
 
 const getIconFromRouteName = cond([
   [equals(HOME), always("md-home")],

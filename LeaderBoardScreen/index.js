@@ -2,15 +2,22 @@ import React from "react";
 import { StyleSheet, View } from "react-native";
 import { Text, Button } from "react-native-elements";
 
+import { CDISCOUNT } from "../routes";
+
 export default function LeaderBoardScreen({ navigation }) {
   const goToCdiscountScreen = () => {
-    navigation.navigate("Cdiscount");
+    navigation.navigate(CDISCOUNT);
   };
 
   return (
     <View style={styles.container}>
-      <Text>Leader Board</Text>
-      <Button type="solid" raised onPress={goToCdiscountScreen}>
+      <Text h2>Leader Board</Text>
+      <Button
+        title={CDISCOUNT}
+        type="solid"
+        raised
+        onPress={goToCdiscountScreen}
+      >
         Cdiscount
       </Button>
     </View>
@@ -19,6 +26,7 @@ export default function LeaderBoardScreen({ navigation }) {
 
 const styles = StyleSheet.create({
   container: {
-    justifyContent: "flex-start"
+    justifyContent: "center",
+    alignItems: "center"
   }
 });
