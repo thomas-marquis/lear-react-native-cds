@@ -8,8 +8,9 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "^35.0.0",
     "capitalize": "file:./packages/capitalize",
+    "expo": "^35.0.0",
+    "http-client": "file:./packages/terraform-http-client",
     "ramda": "^0.26.1",
     "react": "16.8.3",
     "react-dom": "16.8.3",
@@ -23,7 +24,6 @@
     "react-navigation-stack": "^1.10.3",
     "react-navigation-tabs": "^2.6.0",
     "styled-components": "^4.4.1",
-    "http-client": "file:./packages/terraform-http-client",
     "use-fetch-data": "file:./packages/use-fetch-data"
   },
   "devDependencies": {
