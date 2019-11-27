@@ -22,7 +22,9 @@
     "react-navigation": "^4.0.10",
     "react-navigation-stack": "^1.10.3",
     "react-navigation-tabs": "^2.6.0",
-    "styled-components": "^4.4.1"
+    "styled-components": "^4.4.1",
+    "http-client": "file:./packages/terraform-http-client",
+    "use-fetch-data": "file:./packages/use-fetch-data"
   },
   "devDependencies": {
     "babel-preset-expo": "^7.1.0"

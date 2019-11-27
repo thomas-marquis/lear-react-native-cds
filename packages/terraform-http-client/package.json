@@ -1,0 +1,6 @@
+{
+  "name": "terraform-http-client",
+  "version": "1.2.3",
+  "main": "index.js",
+  "license": "MIT"
+}
