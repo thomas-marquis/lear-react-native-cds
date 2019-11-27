@@ -1,22 +1,13 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { StyleSheet, View } from "react-native";
 import { Text, Button } from "react-native-elements";
 
 import { CDISCOUNT } from "../routes";
 
-const fetchDataOptions = {
-  method: "POST"
-};
-const fetchDatUrl = "";
-
 export default function LeaderBoardScreen({ navigation }) {
   const goToCdiscountScreen = () => {
     navigation.navigate(CDISCOUNT);
   };
-
-  useEffect(async () => {
-    const response = await fetch(fetchDatUrl, fetchDataOptions);
-  });
 
   return (
     <View style={styles.container}>
