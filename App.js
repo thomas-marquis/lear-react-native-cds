@@ -9,7 +9,7 @@ import LeaderBoardNavigator from "./LeaderBoardNavigator";
 import GameScreen from "./GameScreen";
 import { HOME, LEADER_BOARD, GAME } from "./routes";
 
-const getIconFromRouteName = cond([
+export const getIconFromRouteName = cond([
   [equals(HOME), always("md-home")],
   [equals(LEADER_BOARD), always("md-medal")],
   [equals(GAME), always("md-play")],

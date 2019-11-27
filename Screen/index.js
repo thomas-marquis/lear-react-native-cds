@@ -3,7 +3,7 @@ import { StyleSheet, View } from "react-native";
 import { Text } from "react-native-elements";
 import { node, string } from "prop-types";
 
-function Screen({ children, title }) {
+export default function Screen({ children, title }) {
   return (
     <View style={styles.container}>
       {title && <Text h2>{title}</Text>}
@@ -25,9 +25,8 @@ Screen.propTypes = {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#fff",
-    justifyContent: "center",
-    alignItems: "center"
+    justifyContent: "flex-start",
+    alignItems: "center",
+    flexDirection: "column"
   }
 });
-
-export default Screen;
