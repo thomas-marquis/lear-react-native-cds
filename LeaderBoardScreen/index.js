@@ -1,8 +1,8 @@
 import React from "react";
-import { StyleSheet, View } from "react-native";
-import { Text, Button } from "react-native-elements";
+import { Button } from "react-native-elements";
 
 import { CDISCOUNT } from "../routes";
+import Screen from "../Screen";
 
 export default function LeaderBoardScreen({ navigation }) {
   const goToCdiscountScreen = () => {
@@ -10,21 +10,13 @@ export default function LeaderBoardScreen({ navigation }) {
   };
 
   return (
-    <View style={styles.container}>
-      <Text h2>Leader Board</Text>
+    <Screen title="Leader Board">
       <Button
         title={CDISCOUNT}
         type="solid"
         raised
         onPress={goToCdiscountScreen}
       />
-    </View>
+    </Screen>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    justifyContent: "center",
-    alignItems: "center"
-  }
-});
