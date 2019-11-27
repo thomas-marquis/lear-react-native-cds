@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "capitalize": "file:./packages/capitalize",
+    "colors": "file:./packages/colors",
     "expo": "^35.0.0",
     "http-client": "file:./packages/terraform-http-client",
     "ramda": "^0.26.1",

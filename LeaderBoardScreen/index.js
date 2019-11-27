@@ -3,7 +3,7 @@ import React from "react";
 import useFetchData from "use-fetch-data";
 import { fetchLearderBoard } from "http-client";
 import { Platform, FlatList, StyleSheet } from "react-native";
-import { Button, Text, ListItem } from "react-native-elements";
+import { Button, Text } from "react-native-elements";
 import { splitAt } from "ramda";
 
 import Leader from "./Leader";

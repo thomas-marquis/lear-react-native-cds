@@ -2,6 +2,7 @@ import React from "react";
 import { LinearGradient } from "expo-linear-gradient";
 import { StyleSheet } from "react-native";
 import { ListItem } from "react-native-elements";
+import { pinkRed, salmon } from "colors";
 
 import { userPropTypes } from "./types";
 
@@ -21,7 +22,7 @@ export default function Leader({ name, avatar, score, id }) {
         status: "warning"
       }}
       linearGradientProps={{
-        colors: ["#FF764B", "#E84738"],
+        colors: [salmon, pinkRed],
         start: [1, 0],
         end: [0.2, 0]
       }}
