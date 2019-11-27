@@ -4328,6 +4328,11 @@ querystringify@^2.1.1:
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
   integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
 
+ramda-adjunct@^2.23.0:
+  version "2.23.0"
+  resolved "https://registry.yarnpkg.com/ramda-adjunct/-/ramda-adjunct-2.23.0.tgz#56b99b626e035e72edf9403b66ab33952a76d067"
+  integrity sha512-8fQqrUSSXbe5Sc8ztVEQb3SHkbaZ5mGmIPW/ic5HGF3SYxx36SQhC6fFPeaTwqdn9aQpGQ2DOJxgLa1CUgUwYg==
+
 ramda@^0.26.1:
   version "0.26.1"
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.26.1.tgz#8d41351eb8111c55353617fc3bbffad8e4d35d06"
