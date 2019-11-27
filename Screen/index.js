@@ -1,3 +1,4 @@
+import Constants from "expo-constants";
 import React from "react";
 import { StyleSheet, View } from "react-native";
 import { Text } from "react-native-elements";
@@ -27,6 +28,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     justifyContent: "flex-start",
     alignItems: "center",
-    flexDirection: "column"
+    flexDirection: "column",
+    paddingTop: Constants.statusBarHeight
   }
 });
