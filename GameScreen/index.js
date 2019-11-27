@@ -1,17 +1,7 @@
-import React from 'react';
-import { StyleSheet, View } from 'react-native'
-import { Text } from 'react-native-elements'
+import React from "react";
+
+import Screen from "../Screen";
 
 export default function GameScreen() {
-    return (
-        <View style={styles.container}>
-            <Text>Jouons</Text>
-        </View>
-    )
+  return <Screen title="Jouons"></Screen>;
 }
-
-const styles = StyleSheet.create({
-    container: {
-        justifyContent: 'flex-start'
-    }
-})
