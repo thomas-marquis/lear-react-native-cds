@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "expo": "^35.0.0",
+    "capitalize": "file:./packages/capitalize",
     "ramda": "^0.26.1",
     "react": "16.8.3",
     "react-dom": "16.8.3",
@@ -20,7 +21,8 @@
     "react-native-webview": "^7.5.2",
     "react-navigation": "^4.0.10",
     "react-navigation-stack": "^1.10.3",
-    "react-navigation-tabs": "^2.6.0"
+    "react-navigation-tabs": "^2.6.0",
+    "styled-components": "^4.4.1"
   },
   "devDependencies": {
     "babel-preset-expo": "^7.1.0"
