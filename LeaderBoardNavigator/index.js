@@ -1,7 +1,7 @@
 import { createStackNavigator } from "react-navigation-stack";
-import { cond, T, F, always, equals } from "ramda";
+import { cond, T, F, equals, compose } from "ramda";
 
-import { CDISCOUNT } from "../routes";
+import { CDISCOUNT, getRouteNameFromNavigation } from "../routes";
 import LeaderBoardScreen from "../LeaderBoardScreen";
 import CdiscountScreen from "../CdiscountScreen";
 
@@ -17,7 +17,10 @@ export default createStackNavigator(
   },
   {
     defaultNavigationOptions: ({ navigation }) => ({
-      headerShown: getHeaderModeFromRouteName(navigation.state.routeName)
+      headerShown: compose(
+        getHeaderModeFromRouteName,
+        getRouteNameFromNavigation
+      )(navigation)
     })
   }
 );
