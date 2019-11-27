@@ -9,7 +9,11 @@ export default function useFetchData(
 
   useEffect(
     () => {
-      httpClientMethod().then(data => setResult(data));
+      const getResponse = async () => {
+        const data = await httpClientMethod();
+        setResult(data);
+      };
+      getResponse();
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps
     Array.isArray(readOnly) ? readOnly : [readOnly]

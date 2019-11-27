@@ -20,6 +20,6 @@ export function fetchProject(projectId) {
   return fetch(`${domain}/projects/${projectId}`, options).then(responseToJson);
 }
 
-export function fetchLearderBoard(projectId) {
+export function fetchLearderBoard() {
   return fetch(`${domain}/leaderboard`, options).then(responseToJson);
 }
